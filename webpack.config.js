@@ -10,7 +10,7 @@ module.exports = {
         contentBase: '.',
         //host: '0.0.0.0',
         host: 'localhost',
-        //sockPort: 80,
+        port: 8082,
         disableHostCheck: true,
         headers: {
             "Access-Control-Allow-Origin": "*",
